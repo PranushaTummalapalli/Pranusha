@@ -7,7 +7,7 @@ public class TestAccountCreation {
             insert a;
     }
     Test.startTest();//testing
-    for(Integer i=0;i<150;i++){
+    for(Integer i=0;i<150;i++){//test case
         Account a = new Account(name='Monish Aditya' +i);
         insert a;
       }
